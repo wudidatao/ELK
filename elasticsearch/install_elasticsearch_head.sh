@@ -32,10 +32,9 @@ npm install phantomjs-prebuilt@2.1.16 --ignore-scripts
 echo "
 http.cors.enabled: true
 http.cors.allow-origin: "*"
-"/etc/elasticsearch/elasticsearch.yml
+" >> /etc/elasticsearch/elasticsearch.yml
 
 #启动elasticsearch-head-master插件
-cd ~/elasticsearch-head-master
 nohup npm run start &
 
 echo "访问http://${host_ip}:9100"
