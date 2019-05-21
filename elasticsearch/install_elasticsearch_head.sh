@@ -15,6 +15,8 @@ node -v
 npm -v
 
 npm install -g cnpm --registry=https://registry.npm.taobao.org
+#add
+npm install -g grunt-cli
 cnpm -v
 
 wget https://github.com/mobz/elasticsearch-head/archive/master.zip
