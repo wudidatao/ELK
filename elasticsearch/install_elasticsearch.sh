@@ -2,7 +2,7 @@
 #强烈建议使用rpm安装，可以默认设置好很多系统参数，无需在安装后再次设置
 . ./var.sh
 
-rpm -ivh jdk-8u60-linux-x64.rpm
+yum install java -y
 
 yum install wget -y
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.rpm
