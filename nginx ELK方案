@@ -57,7 +57,7 @@ output {
         hosts => ["10.248.245.117:9200","10.248.245.118:9200","10.248.245.119:9200"]
         index => "logstash-nginx-test-xxxx_%{+YYYY-MM}"
         user => "elastic"
-        password => "DtchuhvBky24y58FMnUb"
+        password => ""
     }
     stdout { codec => rubydebug }
 
