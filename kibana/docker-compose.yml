@@ -1,0 +1,6 @@
+version: '2'
+services:
+   kibana:
+     image: kibana:6.8.2
+     ports:
+       - 5601:5601
