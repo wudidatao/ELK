@@ -2,5 +2,8 @@ version: '2'
 services:
    kibana:
      image: kibana:6.8.2
+     #如需映射配置文件等文件，二次启动打开这个配置
+     #volumes:
+     # - /data/kibana:/usr/share/kibana
      ports:
        - 5601:5601
