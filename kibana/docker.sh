@@ -8,3 +8,6 @@ chmod -R 777 /data/kibana
 
 #二次启动，映射配置
 docker-compose up -d
+
+#如果需要重建容器的数据文件，可以把数据目录改个名
+mv -r /usr/share/kibana /usr/share/kibana_bak
