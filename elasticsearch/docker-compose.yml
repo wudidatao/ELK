@@ -1,0 +1,9 @@
+version: '2'
+services:
+   elasticsearch:
+     image: elasticsearch:6.8.2
+     #如需映射配置文件等文件，二次启动打开这个配置
+     #volumes:
+     # - /data/elasticsearch:/usr/share/elasticsearch
+     ports:
+       - 5601:5601
